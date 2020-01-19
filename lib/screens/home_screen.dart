@@ -1,4 +1,6 @@
+import 'package:chatty/models/message.dart';
 import 'package:chatty/widgets/favorite_contacts.dart';
+import 'package:chatty/widgets/recent_chats.dart';
 import 'package:flutter/material.dart';
 import 'package:chatty/widgets/category_selector.dart';
 
@@ -51,9 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               child: Column(
-                children: <Widget>[
-                  FavoriteContacts(),
-                ],
+                children: <Widget>[FavoriteContacts(), RecentChats()],
               ),
             ),
           )
