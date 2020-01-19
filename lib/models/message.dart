@@ -19,23 +19,19 @@ class Message {
 
 // YOU - current user
 final User currentUser =
-    User(id: 0, name: 'Current User', imageUrl: 'assets/avatars/Anna.jpg');
+    User(id: 0, name: 'Current User', imageUrl: 'assets/images/Anna.jpg');
 
 // USERS
-final User john =
-    User(id: 1, name: 'John', imageUrl: 'assets/avatars/john.jpg');
+final User john = User(id: 1, name: 'John', imageUrl: 'assets/images/john.jpg');
 final User elena =
-    User(id: 2, name: 'Elena', imageUrl: 'assets/avatars/elena.jpg');
-final User mark =
-    User(id: 3, name: 'Mark', imageUrl: 'assets/avatars/mark.jpg');
-final User jada =
-    User(id: 4, name: 'Jada', imageUrl: 'assets/avatars/jada.jpg');
+    User(id: 2, name: 'Elena', imageUrl: 'assets/images/elena.jpg');
+final User mark = User(id: 3, name: 'Mark', imageUrl: 'assets/images/mark.jpg');
+final User jada = User(id: 4, name: 'Jada', imageUrl: 'assets/images/jada.jpg');
 final User steven =
-    User(id: 5, name: 'Steven', imageUrl: 'assets/avatars/steven.jpg');
+    User(id: 5, name: 'Steven', imageUrl: 'assets/images/steven.jpg');
 final User sophia =
-    User(id: 6, name: 'Sophia', imageUrl: 'assets/avatars/sophia.jpg');
-final User anna =
-    User(id: 7, name: 'Anna', imageUrl: 'assets/avatars/anna.jpg');
+    User(id: 6, name: 'Sophia', imageUrl: 'assets/images/sophia.jpg');
+final User anna = User(id: 7, name: 'Anna', imageUrl: 'assets/images/anna.jpg');
 
 // FAVORITE CONTACTS
 List<User> favorites = [anna, steven, jada, elena, mark];
